@@ -1,0 +1,32 @@
+{
+  "name": "fython",
+  "version": "0.1.0",
+  "description": "Node_module for creating Feathers.js Backend Services based on Python Scripts",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register test/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinussilvestrus/fython.git"
+  },
+  "keywords": [
+    "feathersjs",
+    "python",
+    "nodejs"
+  ],
+  "author": "pinussilvestrus",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/pinussilvestrus/fython/issues"
+  },
+  "homepage": "https://github.com/pinussilvestrus/fython#readme",
+  "dependencies": {
+    "babel-core": "^6.21.0",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "feathers": "^2.0.3",
+    "mocha": "^3.2.0",
+    "python-shell": "^0.4.0"
+  }
+}
