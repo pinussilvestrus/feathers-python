@@ -1,10 +1,6 @@
-language: node_js python
+language: node_js
 node_js:
   - node
   - '6'
-  - '4'
 python:
-  - "2.6"
-  - "2.7"
-  - "3.2"
-script: npm test
+ - '3.2'
