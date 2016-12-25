@@ -1,2 +1,2 @@
-# Nython
-Feathers.js Backend Services with Python Scripts
+# fython
+Feathers.js Backend Services based on Python Scripts
