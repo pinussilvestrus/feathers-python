@@ -1,5 +1,5 @@
 {
-  "name": "fython",
+  "name": "feathers-python",
   "version": "0.1.0",
   "description": "Node_module for creating Feathers.js Backend Services based on Python Scripts",
   "main": "lib/index.js",
