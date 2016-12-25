@@ -15,10 +15,17 @@ describe('fython service', () => {
 
   it('should execute the python script properly', () => {
     expect(service).to.not.be.nil;
+    return service.create({}).then((result) => {
+      expect(result).to.contains('Hello World!');
+    });
+  });
+
+  it('should execute the python script with correct first param', () => {
+    expect(service).to.not.be.nil;
     return service.create({
       param1: 'Test'
     }).then((result) => {
-      expect(result).to.contains('Hello World!');
+      expect(result).to.contains('Hello Test!');
     });
   });
 
