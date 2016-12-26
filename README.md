@@ -1,7 +1,8 @@
-# fython - feathers python
+# fython - feathers-python
 Node_module for creating Feathers.js Backend Services based on Python Scripts
 
-![Travis Status](https://travis-ci.org/pinussilvestrus/feathers-python.svg?branch=master)
+![Travis Status](https://travis-ci.org/pinussilvestrus/feathers-python.svg?branch=master) [![Downloads](https://img.shields.io/npm/dt/feathers-python.svg)](https://www.npmjs.com/package/feathers-python)
+
 
 # Requirements
 
