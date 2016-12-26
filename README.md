@@ -7,7 +7,7 @@ Node_module for creating Feathers.js Backend Services based on Python Scripts
 # Requirements
 
 * node.js
-* Python3
+* Python2
 
 ## Setup
 
@@ -35,6 +35,7 @@ app.use('/pythonScript', new FythonService({scriptPath: 'test/helloWorld.py'}));
 
 // use it the python service
 service = app.service('pythonScript');
+// POST /pythonScript
 service.create({
   param1: 'Test'
 }).then((result) => {
