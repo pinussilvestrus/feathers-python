@@ -1,4 +1,6 @@
 # fython - feathers-python
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/pinussilvestrus/feathers-python.svg)](https://greenkeeper.io/)
 Node_module for creating Feathers.js Backend Services based on Python Scripts
 
 ![Travis Status](https://travis-ci.org/pinussilvestrus/feathers-python.svg?branch=master) [![Downloads](https://img.shields.io/npm/dt/feathers-python.svg)](https://www.npmjs.com/package/feathers-python)
