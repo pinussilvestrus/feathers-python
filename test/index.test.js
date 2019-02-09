@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const feathers = require('feathers');
+const feathers = require('@feathersjs/feathers');
 const logger = require('winston');
 
 const FythonService  = require('../lib');
