@@ -8,24 +8,43 @@ describe('fython service', () => {
   let app, service;
 
   beforeEach(() => {
+    //  given
     app = feathers();
     app.use('/pythonScript', new FythonService({scriptPath: 'test/helloWorld.py'}));
     service = app.service('pythonScript');
+
+    // assure
+    expect(service).to.not.be.undefined;
   });
 
-  it('should execute the python script properly', () => {
-    expect(service).to.not.be.undefined;
-    return service.create({}).then((result) => {
-      expect(result).to.contains('Hello World!');
+  describe('POST', function() {
+
+    it('should execute the python script properly', () => {
+      return service.create({}).then((result) => {
+        // then
+        expect(result).to.contain('Hello World!');
+      });
     });
+
+  
+    it('should execute the python script with correct first param', () => {
+      return service.create({
+        param1: 'Test'
+      }).then((result) => {
+        // then
+        expect(result).to.contain('Hello Test!');
+      });
+    });
+
   });
 
-  it('should execute the python script with correct first param', () => {
-    expect(service).to.not.be.undefined;
-    return service.create({
-      param1: 'Test'
-    }).then((result) => {
-      expect(result).to.contains('Hello Test!');
+
+  describe('GET', function() {
+    it('return script content', () => {
+      return service.find({}).then((result) => {
+        // then
+        expect(result).to.contains('import sys as sys');
+      });
     });
   });
 
