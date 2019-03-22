@@ -1,5 +1,10 @@
 # Change Log
 
+## [v0.2.0](https://github.com/pinussilvestrus/feathers-python/tree/v0.2.0) (2019-03-22)
+[Full Changelog](https://github.com/pinussilvestrus/feathers-python/compare/v0.1.3...v0.2.0)
+
+- Get script content on `GET`
+
 ## [v0.1.3](https://github.com/pinussilvestrus/feathers-python/tree/v0.1.3) (2019-02-21)
 [Full Changelog](https://github.com/pinussilvestrus/feathers-python/compare/v0.1.2...v0.1.3)
 
