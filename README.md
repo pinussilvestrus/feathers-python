@@ -7,8 +7,8 @@ Node.js module for creating Feathers.js Backend Services based on Python Scripts
 
 # Requirements
 
-* node.js
-* Python2
+* [node.js](https://nodejs.org/en/)
+* [Python2](https://www.python.org/downloads/)
 
 ## Setup
 
