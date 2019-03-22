@@ -57,8 +57,9 @@ service.find({}).then((result) => {
 1. Go into project folder
 2. run `npm test`
 
+## Updating Changelog
 
-
+We use [`github-changelog-generator`](https://github.com/github-changelog-generator/github-changelog-generator) for updating the Changelog automatically.
 
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpinussilvestrus%2Ffeathers-python.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpinussilvestrus%2Ffeathers-python?ref=badge_large)
