@@ -49,6 +49,11 @@ service.create({
 service.find({}).then((result) => {
   console.log(result); // logs full content of the python script
 });
+
+// PATCH /pythonScript
+service.patch(null, { content: 'content'}).then((result) => {
+  console.log(result); // logs "content", updates python script content on disk
+});
 ```
 
 ## Testing
