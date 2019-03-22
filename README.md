@@ -11,8 +11,9 @@ Node.js module for creating Feathers.js Backend Services based on Python Scripts
 * [Python2](https://www.python.org/downloads/)
 
 ## Setup
-
-1. Go into your project folder and enter `npm install feathers-python`
+```sh
+$ npm install --save feathers-python
+```
 
 ## Usage
 
