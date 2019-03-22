@@ -42,6 +42,11 @@ service.create({
 }).then((result) => {
   console.log(result); // logs "Hello Test!"
 });
+
+// GET /pythonScript
+service.find({}).then((result) => {
+  console.log(result); // logs full content of the python script
+});
 ```
 
 ## Testing
