@@ -67,5 +67,14 @@ service.patch(null, { content: 'content'}).then((result) => {
 
 We use [`github-changelog-generator`](https://github.com/github-changelog-generator/github-changelog-generator) for updating the Changelog automatically.
 
+## Releasing
+
+We use [`np`](https://github.com/sindresorhus/np) for releasing new versions
+
+```sh
+$ npm i -g np
+$ np
+```
+
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpinussilvestrus%2Ffeathers-python.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpinussilvestrus%2Ffeathers-python?ref=badge_large)
