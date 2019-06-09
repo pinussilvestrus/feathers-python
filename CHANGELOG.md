@@ -1,14 +1,23 @@
 # Change Log
 
+## [v0.3.1](https://github.com/pinussilvestrus/feathers-python/tree/v0.3.1) (2019-06-09)
+[Full Changelog](https://github.com/pinussilvestrus/feathers-python/compare/v0.3.0...v0.3.1)
+
+**Closed issues:**
+
+- An in-range update of mocha is breaking the build 🚨 [\#9](https://github.com/pinussilvestrus/feathers-python/issues/9)
+
+**Merged pull requests:**
+
+- chore\(deps\): bump mocha from 6.1.1 to 6.1.4 [\#12](https://github.com/pinussilvestrus/feathers-python/pull/12) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- chore\(deps\): bump chai-http from 4.2.1 to 4.3.0 [\#11](https://github.com/pinussilvestrus/feathers-python/pull/11) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Greenkeeper/mocha 6.1.1 [\#10](https://github.com/pinussilvestrus/feathers-python/pull/10) ([pinussilvestrus](https://github.com/pinussilvestrus))
+
 ## [v0.3.0](https://github.com/pinussilvestrus/feathers-python/tree/v0.3.0) (2019-03-22)
 [Full Changelog](https://github.com/pinussilvestrus/feathers-python/compare/v0.2.0...v0.3.0)
 
-- Update script content on `PATCH`
-
 ## [v0.2.0](https://github.com/pinussilvestrus/feathers-python/tree/v0.2.0) (2019-03-22)
 [Full Changelog](https://github.com/pinussilvestrus/feathers-python/compare/v0.1.3...v0.2.0)
-
-- Get script content on `GET`
 
 ## [v0.1.3](https://github.com/pinussilvestrus/feathers-python/tree/v0.1.3) (2019-02-21)
 [Full Changelog](https://github.com/pinussilvestrus/feathers-python/compare/v0.1.2...v0.1.3)
