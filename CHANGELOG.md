@@ -1,5 +1,12 @@
 # Change Log
 
+## [v0.4.0](https://github.com/pinussilvestrus/feathers-python/tree/v0.4.0) (2019-07-05)
+[Full Changelog](https://github.com/pinussilvestrus/feathers-python/compare/v0.3.1...v0.4.0)
+
+**Implemented enhancements:**
+
+- Update babel to @babel/core@latest [\#13](https://github.com/pinussilvestrus/feathers-python/issues/13)
+
 ## [v0.3.1](https://github.com/pinussilvestrus/feathers-python/tree/v0.3.1) (2019-06-09)
 [Full Changelog](https://github.com/pinussilvestrus/feathers-python/compare/v0.3.0...v0.3.1)
 
