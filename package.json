@@ -23,11 +23,11 @@
   "homepage": "https://github.com/pinussilvestrus/fython#readme",
   "dependencies": {
     "@feathersjs/feathers": "^3.3.1",
-    "babel-core": "^6.21.0",
-    "chai": "^4.1.2",
-    "chai-http": "^4.2.1",
-    "child-process-promise": "^2.2.0",
-    "mocha": "^6.1.1",
+    "babel-core": "^6.26.3",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "child-process-promise": "^2.2.1",
+    "mocha": "^6.1.4",
     "winston": "^3.2.1"
   }
 }
