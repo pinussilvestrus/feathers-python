@@ -8,19 +8,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pinussilvestrus/fython.git"
+    "url": "git+https://github.com/pinussilvestrus/feathers-python.git"
   },
   "keywords": [
     "feathersjs",
     "python",
     "nodejs"
   ],
-  "author": "pinussilvestrus",
+  "author": {
+    "name": "Niklas Kiefer",
+    "url": "https://github.com/pinussilvestrus"
+  },
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/pinussilvestrus/fython/issues"
+    "url": "https://github.com/pinussilvestrus/feathers-python/issues"
   },
-  "homepage": "https://github.com/pinussilvestrus/fython#readme",
+  "homepage": "https://github.com/pinussilvestrus/feathers-python#readme",
   "dependencies": {
     "@feathersjs/feathers": "^3.3.1",
     "babel-core": "^6.26.3",
