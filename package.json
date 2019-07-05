@@ -4,7 +4,7 @@
   "description": "Node.js for creating Feathers.js Backend Services based on Python Scripts",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha --require babel-core/register test/ --recursive"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -25,8 +25,9 @@
   },
   "homepage": "https://github.com/pinussilvestrus/feathers-python#readme",
   "dependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
     "@feathersjs/feathers": "^3.3.1",
-    "babel-core": "^6.26.3",
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
     "child-process-promise": "^2.2.1",
