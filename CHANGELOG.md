@@ -1,5 +1,15 @@
 # Change Log
 
+## [v0.5.0](https://github.com/pinussilvestrus/feathers-python/tree/v0.5.0) (2019-09-28)
+[Full Changelog](https://github.com/pinussilvestrus/feathers-python/compare/v0.4.0...v0.5.0)
+
+**Merged pull requests:**
+
+- chore\(deps\): bump @feathersjs/feathers from 4.3.1 to 4.3.2 [\#25](https://github.com/pinussilvestrus/feathers-python/pull/25) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- chore\(deps\): \[security\] bump lodash from 4.17.11 to 4.17.14 [\#17](https://github.com/pinussilvestrus/feathers-python/pull/17) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- chore\(deps\): bump @babel/core from 7.5.0 to 7.5.4 [\#16](https://github.com/pinussilvestrus/feathers-python/pull/16) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- chore\(deps\): bump @babel/preset-env from 7.5.0 to 7.5.2 [\#14](https://github.com/pinussilvestrus/feathers-python/pull/14) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+
 ## [v0.4.0](https://github.com/pinussilvestrus/feathers-python/tree/v0.4.0) (2019-07-05)
 [Full Changelog](https://github.com/pinussilvestrus/feathers-python/compare/v0.3.1...v0.4.0)
 
