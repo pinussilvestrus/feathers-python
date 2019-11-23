@@ -36,7 +36,7 @@ app = feathers();
 const options = {
   scriptPath: 'test/helloWorld.py', // python script to be executed
   pythonVersion: 'v2' // python version 'v2' || 'v3'
-}
+};
 
 app.use('/pythonScript', new FythonService(options));
 
