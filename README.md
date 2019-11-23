@@ -72,6 +72,11 @@ service.patch(null, { content: 'content'}).then((result) => {
 
 We use [`github-changelog-generator`](https://github.com/github-changelog-generator/github-changelog-generator) for updating the Changelog automatically.
 
+```sh
+$ gem install github_changelog_generator
+$ github_changelog_generator -u pinussilvestrus -p feathers-python --no-http-cache
+```
+
 ## Releasing
 
 We use [`np`](https://github.com/sindresorhus/np) for releasing new versions
