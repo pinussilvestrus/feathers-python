@@ -8,7 +8,7 @@ Node.js module for creating Feathers.js Backend Services based on Python Scripts
 # Requirements
 
 * [node.js](https://nodejs.org/en/)
-* [Python2](https://www.python.org/downloads/)
+* [Python](https://www.python.org/downloads/)
 
 ## Setup
 ```sh
@@ -33,7 +33,12 @@ const FythonService = require('feathers-python')
 app = feathers();
 
 // register a python service to your app
-app.use('/pythonScript', new FythonService({scriptPath: 'test/helloWorld.py'}));
+const options = {
+  scriptPath: 'test/helloWorld.py', // python script to be executed
+  pythonVersion: 'v2' // python version 'v2' || 'v3'
+}
+
+app.use('/pythonScript', new FythonService(options));
 
 // use the python service
 service = app.service('pythonScript');
