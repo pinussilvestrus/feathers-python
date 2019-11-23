@@ -1,6 +1,6 @@
 {
   "name": "feathers-python",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Node.js for creating Feathers.js Backend Services based on Python Scripts",
   "main": "lib/index.js",
   "scripts": {
