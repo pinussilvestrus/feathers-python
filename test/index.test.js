@@ -28,7 +28,12 @@ describe('fython service', (done) => {
         expect.fail("error appeared in setup: " + err);
       }
 
-      app.use('/pythonScript', new FythonService({scriptPath: testScriptPath}));
+      const options = {
+        scriptPath: testScriptPath,
+        pythonVersion: 'v2'
+      };
+
+      app.use('/pythonScript', new FythonService(options));
       service = app.service('pythonScript');
   
       // assure
