@@ -27,7 +27,7 @@
   "dependencies": {
     "@babel/core": "^7.7.4",
     "@babel/preset-env": "^7.7.4",
-    "@feathersjs/feathers": "^4.3.11",
+    "@feathersjs/feathers": "^4.4.1",
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
     "child-process-promise": "^2.2.1",
