@@ -25,13 +25,13 @@
   },
   "homepage": "https://github.com/pinussilvestrus/feathers-python#readme",
   "dependencies": {
-    "@babel/core": "^7.7.4",
-    "@babel/preset-env": "^7.7.4",
-    "@feathersjs/feathers": "^4.4.1",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@feathersjs/feathers": "^4.5.2",
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
     "child-process-promise": "^2.2.1",
-    "mocha": "^6.2.2",
+    "mocha": "^7.1.0",
     "winston": "^3.2.1"
   }
 }
