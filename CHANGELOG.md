@@ -1,5 +1,17 @@
 # Changelog
 
+## [v0.8.0](https://github.com/pinussilvestrus/feathers-python/tree/v0.8.0) (2020-04-13)
+
+[Full Changelog](https://github.com/pinussilvestrus/feathers-python/compare/v0.7.0...v0.8.0)
+
+**Fixed bugs:**
+
+- Fixup github-changelog-generator [\#41](https://github.com/pinussilvestrus/feathers-python/issues/41)
+
+**Merged pull requests:**
+
+- chore\(deps\): bump @feathersjs/feathers from 4.3.11 to 4.4.1 [\#44](https://github.com/pinussilvestrus/feathers-python/pull/44) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+
 ## [v0.7.0](https://github.com/pinussilvestrus/feathers-python/tree/v0.7.0) (2019-11-23)
 
 [Full Changelog](https://github.com/pinussilvestrus/feathers-python/compare/v0.6.0...v0.7.0)
