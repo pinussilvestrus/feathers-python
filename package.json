@@ -26,7 +26,7 @@
   "homepage": "https://github.com/pinussilvestrus/feathers-python#readme",
   "dependencies": {
     "@babel/core": "^7.8.7",
-    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
     "@feathersjs/feathers": "^4.5.2",
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
