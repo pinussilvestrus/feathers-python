@@ -1,12 +1,16 @@
 {
-    "parserOptions": {
-        "ecmaVersion": 6,
-        "sourceType": "module",
-        "ecmaFeatures": {
-            "jsx": true
-        }
-    },
-    "rules": {
-        "semi": 2
-    }
+  "extends": "airbnb",
+  "rules": {
+    "no-use-before-define": "off",
+    "consistent-return": "off",
+    "no-unused-vars": "off",
+    "no-unused-expressions": "off",
+    "implicit-arrow-linebreak": "off"
+  },
+  "globals": {
+    "describe": "readonly",
+    "it": "readonly",
+    "afterEach": "readonly",
+    "beforeEach": "readonly"
+  }
 }
