@@ -1,7 +1,0 @@
-language: node_js
-node_js:
-  - lts/*
-python:
- - '3.2',
- - '3.6'
-script: npm run all
