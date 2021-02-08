@@ -30,7 +30,7 @@
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
     "@feathersjs/feathers": "^4.5.11",
-    "chai": "^4.2.0",
+    "chai": "^4.3.0",
     "chai-http": "^4.3.0",
     "child-process-promise": "^2.2.1",
     "mocha": "^8.2.1",
