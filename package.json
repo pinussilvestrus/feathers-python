@@ -27,17 +27,17 @@
   },
   "homepage": "https://github.com/pinussilvestrus/feathers-python#readme",
   "dependencies": {
-    "@babel/core": "^7.12.16",
-    "@babel/preset-env": "^7.12.16",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
     "@feathersjs/feathers": "^4.5.11",
-    "chai": "^4.3.0",
+    "chai": "^4.3.4",
     "chai-http": "^4.3.0",
     "child-process-promise": "^2.2.1",
-    "mocha": "^8.3.0",
+    "mocha": "^8.3.2",
     "winston": "^3.3.3"
   },
   "devDependencies": {
-    "eslint": "^7.20.0",
+    "eslint": "^7.22.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
