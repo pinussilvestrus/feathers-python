@@ -31,7 +31,7 @@
     "child-process-promise": "^2.2.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.5",
+    "@babel/core": "^7.16.12",
     "@babel/preset-env": "^7.16.5",
     "chai": "^4.3.4",
     "chai-http": "^4.3.0",
