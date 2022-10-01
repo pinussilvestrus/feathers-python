@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.18.13",
-    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-env": "^7.19.3",
     "chai": "^4.3.6",
     "chai-http": "^4.3.0",
     "eslint": "^8.22.0",
